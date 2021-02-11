@@ -6,32 +6,113 @@
 
 * {
 	font-family: "Roboto Mono";
+	margin-top: 15px;
+	/* border: 1px solid black; */
 }
 
-.plan {
+/* .plan {
 	background-color: #ff764e;
+	border-radius: 20%;
+	color: white;
+	text-decoration: none;
 }
 
 .learn {
 	background-color: #5ed3eb;
+	border-radius: 20%;
+	color: white;
+	text-decoration: none;
 }
 
 .get {
 	background-color: #ffcd69;
+	border-radius: 20%;
+	color: white;
+	text-decoration: none;
+} */
+
+button {
+	padding: 1rem 0;
+	color: red;
+	background-color: #ff764e;
+	border-radius: 15px;
+	color: white;
+	text-decoration: none;
+	margin: 2rem;
+	margin-top: 2rem;
+	margin-left: 20%;
+	width: 100px;
+	/* word-wrap: break-word; */
 }
+
+.yosemiteParkGuideImage {
+	display: inline-block;
+	/* width: 49%; */
+}
+
+.yosemiteParkGuide {
+	border: 2px solid black;
+	width: 50%;
+	display: inline-block;
+}
+
+#section1 {
+	/* display: inline-block; */
+	border: 2px solid black;
+	display: inline-block;
+}
+#section1 img {
+	border: 2px solid black;
+	border-radius: 50%;
+	width: 25%;
+	display: inline-block;
+}
+/* nav a {
+	padding: 2px 0;
+	color: red;
+	background-color: #ff764e;
+	border-radius: 15px;
+	color: white;
+	text-decoration: none;
+	margin: 2rem;
+	margin-top: 2rem;
+	width: 1000px;
+	word-wrap: break-word;
+} */
 
 h1 {
 	font-family: "Chelsea Market";
+	display: inline-block;
 }
 
 #section2 {
 	background-color: #ddb9a3;
+	width: 90%;
+	margin: auto;
+}
+
+span {
+	font-weight: bold;
+}
+
+#section3 {
+	/* border:2px solid black; */
+	margin: auto;
+	padding-left: 350px;
+}
+
+#section3 img {
+	/* border: 2px solid black; */
+	width: 25%;
+	/* margin: auto; */
 }
 
 footer {
 	background-color: #f9e7dc;
 }
 
-span {
-	font-weight: bold;
+footer img {
+	border: 2px solid black;
+	width: 100%;
+	height: 90%;
 }
